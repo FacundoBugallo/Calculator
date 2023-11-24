@@ -68,7 +68,7 @@ const clearButton = document.querySelector("[data-clear]")
 const numberButtons = document.querySelectorAll("[data-number]")
 const deleteButton = document.querySelector("[data-delete]")
 const operationButtons = document.querySelectorAll("[data-operation]")
-const equalsButton = document.querySelectorAll("[data-equals]")
+const equalsButton = document.querySelector("[data-equals]")
 //data-delete
 
 const calculator = new Calculator(operand1Element,operand2Element)
